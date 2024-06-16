@@ -1,6 +1,6 @@
 import React from "react";
-import { Card } from "../components";
-import { Delivery, Checkmark, Purchase, Sprout } from "../svg";
+import { Card } from "../../components";
+import { Delivery, Checkmark, Purchase, Sprout } from "../../svg";
 
 const CardsSection = () => {
   const cardsData = [

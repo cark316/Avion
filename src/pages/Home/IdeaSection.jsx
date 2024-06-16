@@ -1,5 +1,5 @@
 import React from "react";
-import { IdeaImage } from "../assets";
+import { IdeaImage } from "../../assets";
 
 const IdeaSection = () => {
   return (

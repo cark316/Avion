@@ -1,5 +1,10 @@
 import React from "react";
-import { LinkedInLogo, FacebookLogo, TwitterLogo, InstagramLogo } from "../svg";
+import {
+  LinkedInLogo,
+  FacebookLogo,
+  TwitterLogo,
+  InstagramLogo,
+} from "../../svg";
 
 const FooterLinks = () => {
   const menuLinks = [

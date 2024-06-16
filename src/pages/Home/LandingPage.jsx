@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroImage } from "../assets";
+import { HeroImage } from "../../assets";
 
 const LandingPage = () => {
   const heroImgBg = {

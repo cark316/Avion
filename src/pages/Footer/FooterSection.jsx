@@ -1,6 +1,6 @@
 import React from "react";
-import { FooterImage } from "../assets";
-import { CheckmarkFilled } from "../svg";
+import { FooterImage } from "../../assets";
+import { CheckmarkFilled } from "../../svg";
 
 const FooterSection = () => {
   const footerImgBg = {
@@ -39,8 +39,14 @@ const FooterSection = () => {
           ))}
         </ul>
         <div className="flex flex-row items-center justify-center w-full md:px-32 sm:px-48">
-          <input className="flex flex-grow text-sm sm:text-base items-center justify-center text-black px-4 py-2 sm:px-6 sm:py-4 font-manrope" type="text" placeholder="your@email.com"/>
-          <button className="font-manrope text-sm sm:text-base font-thin bg-[#2A254B] px-4 py-2 sm:px-6 sm:py-4 text-nowrap">Sign Up</button>
+          <input
+            className="flex flex-grow text-sm sm:text-base items-center justify-center text-black px-4 py-2 sm:px-6 sm:py-4 font-manrope"
+            type="text"
+            placeholder="your@email.com"
+          />
+          <button className="font-manrope text-sm sm:text-base font-thin bg-[#2A254B] px-4 py-2 sm:px-6 sm:py-4 text-nowrap">
+            Sign Up
+          </button>
         </div>
       </div>
     </section>

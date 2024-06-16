@@ -1,6 +1,6 @@
 import React from "react";
-import { Product1, Product2, Product3, Product4 } from "../assets";
-import { ProductCard } from "../components";
+import { Product1, Product2, Product3, Product4 } from "../../assets";
+import { ProductCard } from "../../components";
 
 const ProductCards = () => {
   const cardsList = [
